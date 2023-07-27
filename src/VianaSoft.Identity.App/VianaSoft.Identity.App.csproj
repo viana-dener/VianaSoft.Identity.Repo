@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -6,6 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="12.0.1" />
+	</ItemGroup>
+	
   <ItemGroup>
     <ProjectReference Include="..\VianaSoft.Identity.Data\VianaSoft.Identity.Data.csproj" />
     <ProjectReference Include="..\VianaSoft.Identity.Domain\VianaSoft.Identity.Domain.csproj" />

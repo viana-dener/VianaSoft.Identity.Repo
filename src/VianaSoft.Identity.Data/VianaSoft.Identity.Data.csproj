@@ -6,6 +6,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.3" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.3" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.3" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="7.0.2" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="7.0.2" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.2" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.2" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.2" />
+		<PackageReference Include="MimeKit" Version="4.0.0" />
+	</ItemGroup>
+	
   <ItemGroup>
     <ProjectReference Include="..\VianaSoft.Identity.Domain\VianaSoft.Identity.Domain.csproj" />
   </ItemGroup>

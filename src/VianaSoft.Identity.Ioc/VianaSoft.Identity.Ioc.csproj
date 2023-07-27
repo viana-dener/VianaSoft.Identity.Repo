@@ -6,6 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+	</ItemGroup>
+	
   <ItemGroup>
     <ProjectReference Include="..\VianaSoft.Identity.App\VianaSoft.Identity.App.csproj" />
     <ProjectReference Include="..\VianaSoft.Identity.Data\VianaSoft.Identity.Data.csproj" />

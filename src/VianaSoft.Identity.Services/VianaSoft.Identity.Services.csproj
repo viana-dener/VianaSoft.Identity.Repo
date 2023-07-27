@@ -6,6 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="SendGrid" Version="9.28.1" />
+	</ItemGroup>
+	
   <ItemGroup>
     <ProjectReference Include="..\VianaSoft.Identity.Domain\VianaSoft.Identity.Domain.csproj" />
   </ItemGroup>
