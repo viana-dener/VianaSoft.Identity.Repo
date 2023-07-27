@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VianaSoft.Identity.App\VianaSoft.Identity.App.csproj" />
+    <ProjectReference Include="..\VianaSoft.Identity.Data\VianaSoft.Identity.Data.csproj" />
+    <ProjectReference Include="..\VianaSoft.Identity.Services\VianaSoft.Identity.Services.csproj" />
+  </ItemGroup>
+
+</Project>
