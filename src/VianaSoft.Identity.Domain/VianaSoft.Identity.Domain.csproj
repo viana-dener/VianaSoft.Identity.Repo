@@ -8,7 +8,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="FluentValidation" Version="11.6.0" />
-		<PackageReference Include="VianaSoft-BuildingBlocks" Version="1.0.4" />
+		<PackageReference Include="VianaSoft-BuildingBlocks" Version="1.0.5" />
 	</ItemGroup>
 
 </Project>
